@@ -1,0 +1,107 @@
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0, 0, 0, 0.7)),url("./Image/background.jpg");
+    
+    
+    /* The linear gradient acts as an overlay on top of the background image, giving it a darker tint.*/
+    height:100%;  /* Make the body take the full viewport height */
+    width:100%;    /* Make the body take the full viewport width */
+    
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:15vh;
+}
+
+.logo{
+    width:100%;  /* div class buttons has share the horizontal space with width:49%*/
+    padding-left:350px;
+    margin-top: -50px;
+    margin-left: -60px; 
+}
+
+img{
+    width: 200px;
+    height: 60px;   
+}
+
+.button{
+    padding: 100px;
+    width: 49%;
+    text-align: right;
+    margin-top: -50px;
+    
+}
+
+
+.button1, .button2{
+    background: red; /* background color of the button turn to red*/
+    padding: 8px 14px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px; /* curve along the edges*/
+    font-weight: bold;
+    margin: 4px;
+    position: relative;
+    left:80px;
+    
+    
+
+
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 900;
+
+    
+}
+
+.head{
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+.mess{
+    font-size: 28px;   
+    line-height:-8px;
+}
+
+.mess1{
+    font-size: 23px;
+    line-height: 1em;
+
+}
+.message{
+    color: aliceblue;
+    text-align: center;
+    line-height:5px;
+    margin-top: -40px;
+}
+.cont{
+    position: absolute;
+    bottom: 100px;
+    padding-bottom: 200px;
+    width:100%;
+    position:fixed;
+    
+    text-align:center;
+    z-index:9999;
+}
+
+/*Netflix clone*/
