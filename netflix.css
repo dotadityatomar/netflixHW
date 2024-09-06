@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0, 0, 0, 0.7)),url("./Image/background.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0, 0, 0, 0.7)),url("./image/background.jpg");
     
     
     /* The linear gradient acts as an overlay on top of the background image, giving it a darker tint.*/
